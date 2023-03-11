@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(29, 28, 28);
+    font-family: "Inconsolata", sans-serif;
+    margin: 5% 5% 5% 5%;
+}
+
+#mainlogo {
+    display: block;
+    margin: auto;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(98, 98, 100);
+    border-radius: 5px;
+    margin: 4px;
+    padding: 4px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    font-size: 300%;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 5px;
+    text-decoration-line: none;
+    color: rgba(255, 254, 254, 0.726);
+}
+
+.secondary article {
+    flex: 1;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(98, 98, 100);
+}
+
+
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+    flex: 1;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(98, 98, 100);
+    font-size: 300%;
+    font-family: Gooper,sans-serif;
+}
+
+
+#smalllemon:hover {
+    transform: rotate(720deg);
+	transition: 1.5s;
+}
+
+.secondary {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secondary h2 {
+    font-family: "Lato",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.secondary p {
+    color: rgba(248, 242, 242, 0.822);
+}
+
+.secondary img {
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.secondary a {
+    color: rgb(255, 254, 254);
+    border-color: rgba(127,140,141,0);
+    background-color: rgb(54, 54, 54);
+    text-shadow: 0 0.075em 0.075em rgb(0 0 0 / 50%);
+    font-size: 150%;
+}
+
+a:hover, .secondary a:hover {
+    color: rgb(191,115,115);
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: right;
+    color: white;
+}
+
+#footerlogo {
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
+
+#footerlogo:hover {
+    transform: rotateX(360deg);
+	transition: 1.1s;
+}
